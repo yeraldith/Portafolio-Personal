@@ -1,30 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
 
-.navbar {
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(63, 63, 87) 35%, rgb(216, 175, 226) 100%);
-}
-
-.image-perfil {
-    box-shadow: -80px -16px 149px 5px rgba(0, 0, 0, 0.66);
-}
-
-.text {
-    font-size: 2rem;
-    font-family: 'Caveat', cursive;
-}
-
-.text-principal {
-    font-family: 'Indie Flower', cursive;
-    font-size: 2rem;
-}
-
-.text-h1 {
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(63, 63, 87) 35%, rgb(216, 175, 226) 100%);
+.nav-color {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgb(184, 136, 216) 0%, rgb(218, 151, 215) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
 .jumbotron {

@@ -7,104 +7,109 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Portafolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://img.icons8.com/color/48/000000/codepen.png">
 </head>
 
 <body>
     <!--Inicio Barra Navegadora-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
-        <a class="navbar-brand text-white" href="#inicio">PORTAFOLIO</a>
+    <nav class="container-fluid navbar sticky-top navbar-expand-lg navbar-light nav-color">
+        <a class="navbar-brand text-white" href="#">PORTAFOLIO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span> 
     </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link text-white text-principal" href="#inicio">PERFIL <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white" href="#perfil">PERFIL <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white text-principal" href="#proyectos">PROYECTOS</a>
+                    <a class="nav-link text-white" href="#proyectos">PROYECTOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white text-principal" href="#contacto">CONTACTO</a>
+                    <a class="nav-link text-white" href="#contacto">CONTACTO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#inicio" tabindex="-1" aria-disabled="true"></a>
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"></a>
                 </li>
             </ul>
         </div>
     </nav>
     <!--Fin Barra Navegadora-->
-
     <!--Inicio cuerpo de html-->
-    <main>
+    <main class="container">
         <!--Inicio seccion perfil-->
-        <section class="container" id="inicio">
+        <section class="mt-5" id="perfil">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 d-flex">
                 <div class="col">
-                    <p class="display-4 text-warning mt-5 mb-4">Soy yeraldith,</p>
-                    <p class="text">Desarrolladora FrontEnd</p>
-                    <p class="text">Ingeniera Insdustrial</p>
+                    <h1 class="text-warning mt-5 mb-4">Información personal</h1>
+                    <p class="text subtitle-perfil mt-2 text-justify">Yeraldith Camargo Ayala</p>
                     <p class="text subtitle-perfil text-justify">Soy una mujer apasionada por la tecnología, me considero una persona responsable, dinamica e inquieta, con facilidad de adaptación, aprendizaje y capacidad para trabajar en equipo.</p>
                 </div>
                 <div class="col d-flex justify-content-center align-items-center">
-                    <img width="400" height="500" class="image-perfil img-fluid rounded-circle" src="image/imgy.jpeg " alt="Responsive image ">
+                    <img width="250" height="200" class="image-perfil img-fluid rounded-circle" src="image/imgy.jpeg " alt="Responsive image ">
                 </div>
             </div>
         </section>
         <!--Fin seccion perfil-->
-        <!--Inicio seccion proyectos-->
-        <section class="section-proyectos" id="proyectos">
-            <h1 class="text-center display-4 text-warning mt-5 p-2 text-h1">Mis Proyectos</h1>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-4 col-lg-6 py-4">
-                        <a href=""><img class="img-fluid" src="image/pagtributo.png" alt="Responsive image"></a>
-                        <p class="text-center mt-4">Página Tributo Homenaje a la artista Frida Kahlo por sus obras</p>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-6 py-4">
-                        <a href=""><img class="img-fluid" src="image/landinpage.png" alt="Responsive image"></a>
-                        <p class="text-center mt-4">Landing Page, productos tecnologicos a su alcance</p>
-                    </div>
-
-                    <div class="col-sm-12 col-md-4 col-lg-6 py-4"><img class="img-fluid" src="image/red-social.png" alt="Responsive image">
-                        <p class="text-center mt-4">Clone RedSocial</p>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-6 py-4">
-                        <a href=""><img class="img-fluid" src="image/documentation.png" alt="Responsive image"></a>
-                        <p class="text-center mt-4">Página Documentación técnica, con el tema css Layout</p>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-6 py-4">
-                        <a href=""><img class="img-fluid" src="image/reto.png" alt="Responsive image"></a>
-                        <p class="text-center mt-4">Página Team FrontEnd, un trabajo realizado en grupo</p>
-                    </div>
+        <!--Informacion academica seccion academico  -->
+        <section class="row mb-4 mt-5 d-flex justify-content-center align-items-center" id=proyectos>
+            <div class="card" style="width: 250px;">
+                <div class="card-body text-center">
+                    <p><img class=" img-fluid" src="image/dato.png" alt="card image"></p>
+                    <h4 class="card-title">Desarrolladora FrontEnd</h4>
+                    <p class="card-text">Makaia</p>
+                    <a href="https://makaia.org/es/inicio/" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                 </div>
             </div>
-        </section>
-        <!--Fin seccion proyectos-->
-
-        <!--Inicio seccion contacto-->
-        <section class="container" id="contacto">
-            <p class="text-center mt-5 display-2">REDES SOCIALES</p>
-            <div class="col">
-                <a href="https://www.linkedin.com/in/yeraldith-camargo-ayala-74130610a/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://codepen.io/yeraldith"><i class="fab fa-free-code-camp"></i></a>
-                <a href="https://github.com/yeraldith"><i class="fab fa-github"></i></a>
-                <a href="https://twitter.com/Yeraldith15"><i class="fab fa-twitter"></i></a>
+            <div class="card" style="width: 250px;">
+                <div class="card-body text-center">
+                    <p><img class=" img-fluid" src="image/ingeniero.png" alt="card image"></p>
+                    <h4 class="card-title">Ingeniera Industrial</h4>
+                    <p class="card-text">Universidad de Boyacá</p>
+                    <a href="https://www.uniboyaca.edu.co/" class=" btn btn-primary btn-sm "><i class="fa fa-plus "></i></a>
+                </div>
             </div>
-            <div class="col-sm-12 col-lg-12 col-xl-12 ">
-                <form id="form " action=" ">
-                    <div class="input-group-text ">@<input name="email " id="email " type="email " class="form-control " placeholder="Digite su correo para contactarse"><input id="submit " type="submit " value="Enviar " class="btn btn-dark btn-border "></div>
-                </form>
+            <div style="width: 250px;">
+                <div class="card-body text-center">
+                    <a href="https://drive.google.com/file/d/0BzW4AD7o1xEQdnVPLUFZZmd5WDN0MnVVSXpPZndGTWExX3k0/view?usp=sharing" class=" btn btn-primary btn-sm "><img class=" img-fluid" src="https://img.icons8.com/color/48/000000/browse-folder.png"></a>
+                    <p class="card-title">CV</p>
+                </div>
+                <div style="width: 250px;">
+                    <div class="card-body text-center">
+                        <a href="/proyectos.html" class=" btn btn-primary btn-sm "><img class=" img-fluid" src="https://img.icons8.com/color/48/000000/browse-folder.png"></a>
+                        <p class="card-title">MIS PROYECTOS</p>
+                    </div>
+                </div>
+        </section>
+        <!--Fin seccion academico-->
+
+        <section class="mt-4" style="height: 250px;" id="contacto">
+            <h1 class="text-center mb-2">REDES SOCIALES</h1>
+            <div class="row">
+                <div class="col-lg-4 col-xs-2 d-flex justify-content-center">
+                    <a href="https://github.com/yeraldith"><img src="https://img.icons8.com/color/96/000000/github--v1.png"></a>
+                </div>
+                <div class="col-lg-4 col-xs-2 d-flex justify-content-center">
+                    <a href="https://www.linkedin.com/in/yeraldith-camargo-ayala-74130610a/ "><img src="https://img.icons8.com/color/96/000000/linkedin.png"></a>
+                </div>
+                <div class="col-lg-4 col-xs-2 d-flex justify-content-center">
+                    <a href="https://twitter.com/Yeraldith15"><img src="https://img.icons8.com/color/96/000000/twitter-squared.png"></a>
+                </div>
             </div>
         </section>
         <!--Fin seccion contacto-->
     </main>
-    <footer class="card text-center">
-        <div class="card-header bg-dark text-white">
+    <footer class="card text-center ">
+        <div class="col-sm-12 col-lg-12 col-xl-12 ">
+            <form id="form " action=" ">
+                <div class="input-group-text ">@<input name="email " id="email " type="email " class="form-control " placeholder="Digite su correo para contactarse "><input id="submit " type="submit " value="Enviar " class="btn btn-dark btn-border "></div>
+            </form>
+        </div>
+        <div class="card-header bg-dark text-white ">
             Academia Geek - FrontEnd Yeraldith Camargo Ayala
         </div>
     </footer>
-    <script src="https://kit.fontawesome.com/cd2331958e.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/cd2331958e.js " crossorigin="anonymous "></script>
 </body>
 
 </html>
